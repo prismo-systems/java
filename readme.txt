@@ -23,8 +23,7 @@ In the outermost maven POM of the project include the following sections and the
                             <version>1.0-SNAPSHOT</version>
                             <type>jar</type>
                             <overWrite>true</overWrite>
-<!--                            <outputDirectory>${project.build.outputDirectory}</outputDirectory>-->
-                            <outputDirectory>${project.build.directory}/${project.build.finalName}/WEB-INF/classes</outputDirectory><!--                            <destFileName>[ filename ]</destFileName>-->
+                            <outputDirectory>${project.build.directory}/${project.build.finalName}/WEB-INF/classes</outputDirectory>
                             <includes>com/prismo/PrismoServlet.class</includes>
                         </artifactItem>
                     </artifactItems>
